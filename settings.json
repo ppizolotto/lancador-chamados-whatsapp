@@ -1,0 +1,37 @@
+{
+  "application": {
+    "name": "Lancador de Chamados",
+    "version": "0.1.0",
+    "main_window": {
+      "title": "Lançador de Chamados",
+      "icon": "",
+      "default_size": [1280, 820],
+      "minimum_size": [1024, 700],
+      "disable_maximize_button": false,
+      "center_on_screen": true,
+      "start_maximized": false,
+      "fullscreen": false
+    }
+  },
+  "chrome": {
+    "log_file": "debug.log",
+    "log_severity": "warning",
+    "cache_path": "webcache",
+    "external_navigation": false,
+    "context_menu": {
+      "enable_menu": true,
+      "navigation": false,
+      "print": false,
+      "view_source": false,
+      "devtools": false
+    }
+  },
+  "web_server": {
+    "listen_on": ["127.0.0.1", 0],
+    "www_directory": "www",
+    "index_files": ["index.php", "index.html"],
+    "cgi_interpreter": "php/php-cgi.exe",
+    "cgi_extensions": ["php"],
+    "hide_files": ["php", "settings.json", "debug.log"]
+  }
+}

@@ -1,0 +1,28 @@
+# Dados locais: banco, chaves de IA, sessão do navegador, conversas, logs — NUNCA versionar
+data/
+Relatorios/
+*.db
+*.db-wal
+*.db-shm
+*.log
+.env
+*.bak-*
+
+# Dependências baixadas pelo app (botão "Instalar") e binários do PHP Desktop
+runtime/
+php/
+webcache/
+locales/
+*.exe
+*.dll
+*.pak
+*.dat
+*.bin
+vk_swiftshader_icd.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Pacotes gerados
+*.zip
